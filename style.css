@@ -1,0 +1,173 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* gold: #FFD700 */
+
+body{
+  font-family: Rubik;
+  background-color: white;
+  color: black;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li{
+  list-style-type: none;
+  padding: 5px 15px 5px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.logo h2{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.golden{
+  color: #FFD700;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.red{
+  color: #E41B17;
+}
+.text{
+  text-align: center;
+
+}
+.text h1{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.generator{
+  width: 50%;
+}
+.holder{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+ 
+}
+.entry1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.entry1 label{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.entry1 input{
+  width: 35vh;
+  height: 7vh;
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: white;
+  font-family: Rubik;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+
+}
+.entry2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+.entry2 label{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.entry2 input{
+  width: 35vh;
+  height: 7vh;
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: white;
+  font-family: Rubik;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+
+}
+.button-submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find{
+  width: 25vh;
+  height: 7vh;
+  
+  background-color:#E41B17;
+  font-family: Rubik;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  border-radius: 7px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+}
+
+.find:hover{
+  content: " ";
+  background-color: #FFD700;
+  
+}
+
+
+.percent{
+  font-size: 1rem;
+  font-weight: bold;
+}
+#display{
+  width: 35vh;
+  height: 7vh;
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: white;
+  font-family: Rubik;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.percentage{
+  margin-top: 10px;
+}

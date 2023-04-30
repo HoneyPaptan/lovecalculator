@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOLDEN HOUR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h2><span class="golden">GOLDEN</span> HOUR</h2>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container">
+        <div class="wrapper">
+          <div class="text">
+            <h1>
+              FIND HOW MUCH YOUR <br />
+              PARTNER <br />
+              <span class="red">LOVES </span>YOU!
+            </h1>
+          </div>
+        </div>
+        <div class="generator">
+          <div class="holder">
+            
+              <div class="entry1">
+                <label >YOUR NAME:</label>
+                <input id="name1" type="text" name="firstname" required />
+              </div>
+              <div class="entry2">
+                <label >PARTNER'S NAME:</label>
+
+                <input id="name2" type="text" required name="secname" />
+              </div>
+              <div class="percentage">
+                <label class="percent">PERCENTAGE: </label>
+                <input readonly type="text" id="display" placeholder="love value">
+              </div>
+
+              <div class="button-submit">
+                <button type="submit" class="find" onclick="calculateLove()">SUBMIT</button>
+              </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
